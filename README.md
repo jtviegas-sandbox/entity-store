@@ -21,14 +21,14 @@ a component that works as a store to generic entities
 
     let store = require('@jtviegas/entity-store');
     store.entitiesRetrieval(APP, ENV, ENTITY, (e,d)=>{
-                    logger.info("entitiesRetrieval: %s", d);
-                    if(e)
-                        done(e);
-                    else {
-                        expect(d.length).to.equal(TEST_ITERATIONS);
-                        done(null);
-                    }
-                });
+        logger.info("entitiesRetrieval: %s", d);
+        if(e)
+            done(e);
+        else {
+            expect(d.length).to.equal(TEST_ITERATIONS);
+            done(null);
+        }
+    });
 
     
 ## Tests
