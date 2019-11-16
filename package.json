@@ -1,0 +1,42 @@
+{
+  "name": "@username/entity-store",
+  "version": "0.0.1",
+  "description": "a component that works as a store to generic entities",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/test.sh",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtviegas/entity-store.git"
+  },
+  "keywords": [
+    "lambda",
+    "nodejs"
+  ],
+  "author": "Joao Tiago Viegas <jtviegas.js@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/jtviegas/entity-store/issues"
+  },
+  "homepage": "https://github.com/jtviegas/entity-store#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "dependencies": {
+    "@jtviegas/dyndbstore": "^2.0.1",
+    "@jtviegas/jscommons": "0.0.25",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.572.0",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.7",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
