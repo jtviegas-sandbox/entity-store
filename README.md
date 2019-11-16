@@ -6,6 +6,8 @@ entity-store
 
 a component that works as a store to generic entities
 
+![overview][overview]
+
 ## Installation
 
   `npm install @jtviegas/entity-store`
@@ -40,3 +42,5 @@ a component that works as a store to generic entities
 ## Contributing
 
     just help yourself and submit a pull request
+    
+ [overview]: assets/overview.png "overview"
