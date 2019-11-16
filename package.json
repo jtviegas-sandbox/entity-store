@@ -1,6 +1,6 @@
 {
-  "name": "@username/entity-store",
-  "version": "0.0.1",
+  "name": "@jtviegas/entity-store",
+  "version": "0.0.2",
   "description": "a component that works as a store to generic entities",
   "main": "index.js",
   "scripts": {
