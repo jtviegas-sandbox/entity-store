@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jtviegas/entity-store.svg?branch=master)](https://travis-ci.org/jtviegas/entity-store)
+[![Coverage Status](https://coveralls.io/repos/github/jtviegas/entity-store/badge.svg?branch=master)](https://coveralls.io/github/jtviegas/entity-store?branch=master)
 
 entity-store
 =========
