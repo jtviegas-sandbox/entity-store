@@ -18,9 +18,16 @@ const entityStore = {
         logger.debug("[entity-store|entsityRetrieval|out]");
     }
 
-    , entitiesRetrieval: (app, env, entity, callback) => {
-        logger.debug("[entity-store|entitiesRetrieval|in] (%s,%s,%s)", app, env, entity);
+    , entitiesRetrieval: (app, env, entity, params, callback) => {
+        logger.debug("[entity-store|entitiesRetrieval|in] (%s,%s,%s,%o)", app, env, entity, params);
         let table = commons.getTableNameV4(app, entity, env);
+
+        if( params ){
+
+        }
+
+        store.findObjsByIdRange(table, 3, 4);
+
         store.getObjs(table, (e,d) => {
             if(e)
                 callback(e);
@@ -31,6 +38,5 @@ const entityStore = {
     }
 
 };
-
 
 module.exports = entityStore;
